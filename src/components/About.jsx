@@ -39,19 +39,15 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={`${styles.sectionSubText}`} >About</p>
+        <h2 className={`${styles.sectionHeadText} text-[#4db9ef]`}>EduQuest AR</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      Rooted in a commitment to revolutionize education, our platform envisions a future where learning is not just informative but a thrilling adventure. Learn how EduQuest AR enhances traditional learning methods by offering immersive experiences that turn abstract concepts into engaging activities. With a focus on users, especially children, our platform facilitates interaction with educational content through AR, fostering a deeper understanding in a fun and interactive manner. Meet the minds behind EduQuest AR and explore the journey of transforming education into an exciting exploration for young minds.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
