@@ -50,11 +50,7 @@ const About = () => {
       Rooted in a commitment to revolutionize education, our platform envisions a future where learning is not just informative but a thrilling adventure. Learn how EduQuest AR enhances traditional learning methods by offering immersive experiences that turn abstract concepts into engaging activities. With a focus on users, especially children, our platform facilitates interaction with educational content through AR, fostering a deeper understanding in a fun and interactive manner. Meet the minds behind EduQuest AR and explore the journey of transforming education into an exciting exploration for young minds.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
+    
     </>
   );
 };
