@@ -15,10 +15,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import explore from "./company/explore.png";
+import download from "./company/download.png";
+import marker from "./company/marker.png";
+import setup from "./company/setup.png";
+import camera from "./company/camera.png"
+import learning from "./company/learning.png"
 import skeleton1 from "./skeleton1.jpg";
 import heart from "./heart.jpg";
 import solar from "./solar.jpg";
@@ -43,10 +45,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  explore,
+  download,
+  marker,
+  setup,
+  camera,
+  learning,
   skeleton1,
   heart,
   solar,

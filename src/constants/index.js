@@ -3,26 +3,29 @@ import {
   // backend,
   // creator,
   // web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // javascript,
+  // typescript,
+  // html,
+  // css,
+  // reactjs,
+  // redux,
+  // tailwind,
+  // nodejs,
+  // mongodb,
+  // git,
+  // figma,
+  // docker,
+
+  explore,
+  download,
+  marker,
+  setup,
+  camera,
+  learning,
   skeleton1,
   heart,
   solar,
-  threejs,
+  // threejs,
   shooter,
   portal,
   mind,
@@ -119,55 +122,59 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "*Explore and Discover*",
+    // company_name: "explore",
+    icon: explore,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Step-1",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Open our user-friendly website and seamlessly navigate to the section showcasing our learning apps",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "*Download and Install*",
+ 
+    icon: download,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Step-2",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Choose the app that aligns with the topic you want to explore in AR, effortlessly download, and install it on your device",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "*For Marker-Based Projects*",
+    icon: marker,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Step-3",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "If engaging in a marker-based project, conveniently download the marker associated with the topic. ",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "*Setup for Augmented Reality*",
+    icon: setup,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Step-4",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Open the app and position it toward the horizontally placed marker. Ensure your device is held vertically for optimal engagement.",
+    ],
+  },
+  {
+    title: "*Camera Permission*",
+    icon: camera,
+    iconBg: "#E6DEDD",
+    date: "Step-5",
+    points: [
+      "Grant permission to your device camera, allowing the magic of augmented reality to unfold before your eyes.",
+    ],
+  },
+  {
+    title: "*Dive into Learning*",
+    icon: learning,
+    iconBg: "#E6DEDD",
+    date: "Step-6",
+    points: [
+      "With a simple setup, you're all set to dive into an immersive learning experience, where education meets the future!",
     ],
   },
 ];
@@ -175,28 +182,40 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      
+      "Utilizing both marker-based and marker-less AR technologies, offering a versatile and adaptive learning experience.",
+
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      
+      "Integration of interactive AR components featuring captivating animations, ensuring a dynamic and engaging educational experience.",    
+
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      
+      "Incorporating game-based learning elements to make education enjoyable, motivating kids to actively participate and learn through play.",
+
   },
+  {
+    testimonial:
+      
+      "Seamlessly blending virtual content with the real-world environment, allowing kids to walk around and augment their surroundings for an immersive and interactive learning adventure.",
+
+  },
+  {
+    testimonial:
+      
+      "Simplifying the app download process, ensuring users can quickly and easily access the learning application without unnecessary complexities.",
+  },
+  {
+    testimonial:
+      
+      "Offering an innovative UI/UX design within the app to maximize efficiency, ensuring a smooth and user-friendly learning experience.",
+  },
+  
+ 
 ];
 
 const projects = [
