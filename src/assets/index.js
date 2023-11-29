@@ -1,12 +1,7 @@
 import logo from "./ar-high-resolution-logo-transparent.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
+import github from "./Ar1.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,22 +15,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./card.jpg";
-import jobit from "./card1.jpg";
-import tripguide from "./card3.jpeg";
-
+import explore from "./company/explore.png";
+import download from "./company/download.png";
+import marker from "./company/marker.png";
+import setup from "./company/setup.png";
+import camera from "./company/camera.png"
+import learning from "./company/learning.png"
+import skeleton1 from "./skeleton1.jpg";
+import heart from "./heart.jpg";
+import solar from "./solar.jpg";
+import shooter from "./shooter.jpg";
+import mind from "./mind.jpg";
+import portal from "./portal.jpg";
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
@@ -52,11 +45,17 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  explore,
+  download,
+  marker,
+  setup,
+  camera,
+  learning,
+  skeleton1,
+  heart,
+  solar,
+  shooter,
+  mind,
+  portal,
+
 };
