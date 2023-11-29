@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  // mobile,
+  // backend,
+  // creator,
+  // web,
   javascript,
   typescript,
   html,
@@ -19,10 +19,13 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  skeleton1,
+  heart,
+  solar,
   threejs,
+  shooter,
+  portal,
+  mind,
 } from "../assets";
 
 export const navLinks = [
@@ -41,22 +44,22 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "",
-    icon: web,
-  },
-  {
-    title: "",
-    icon: mobile,
-  },
-  {
-    title: "",
-    icon: backend,
-  },
-  {
-    title: "",
-    icon: creator,
-  },
+  // {
+  //   title: "",
+  //   icon: web,
+  // },
+  // {
+  //   title: "",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -198,66 +201,129 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Skeleton",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An innovative heart education app that utilizes augmented reality to project a beating heart onto a marker. The app highlights various parts of the heart, offering a visually immersive experience and providing educational insights into the anatomy of this vital organ.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "react",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "tailwind",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: carrent,
+    image: skeleton1,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: " Human Heart",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An innovative heart education app that utilizes augmented reality to project a beating heart onto a marker. The app highlights various parts of the heart, offering a visually immersive experience and providing educational insights into the anatomy of this vital organ..",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "react",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "restapi",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: jobit,
+    image: heart,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Solar Sytsem",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An augmented reality app showcasing the solar system, featuring dynamic animations of the sun and planets revolving on their axes while orbiting the sun. The app incorporates special effects for an engaging and immersive experience.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "nextjs",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "supabase",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: tripguide,
+    image: solar,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Ar Shooter",
+    description:
+      "Embark on an interactive learning adventure with our AR app! Dive into a vibrant world, Explore the augmented reality environment, tapping on spheres to uncover the alphabet in a fun  way. creating an immersive learning experience that turns mastering the ABCs into an exciting journey.",
+    tags: [
+      // {
+      //   name: "nextjs",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "supabase",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: shooter,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Ar Portal",
+    description:
+      "Step into an AR portal and find yourself in a Victorian room, where lace curtains flutter and gas lamps illuminate intricately carved furniture. Uncover the secrets of a bygone era as you explore a world where history meets immersive technology.",
+    tags: [
+      // {
+      //   name: "nextjs",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "supabase",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: portal,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Human Mind",
+    description:
+      "An augmented reality app showcasing the solar system, featuring dynamic animations of the sun and planets revolving on their axes while orbiting the sun. The app incorporates special effects for an engaging and immersive experience.",
+    tags: [
+      // {
+      //   name: "nextjs",
+      //   color: "blue-text-gradient",
+      // },
+      // {
+      //   name: "supabase",
+      //   color: "green-text-gradient",
+      // },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: mind,
     source_code_link: "https://github.com/",
   },
 ];
