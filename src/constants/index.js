@@ -238,7 +238,7 @@ const projects = [
       // },
     ],
     image: skeleton1,
-    source_code_link: "https://github.com/",
+    source_code_link: "src/assets/skeleton.apk",
   },
   {
     name: " Human Heart",
@@ -259,7 +259,7 @@ const projects = [
       // },
     ],
     image: heart,
-    source_code_link: "https://github.com/",
+    source_code_link: "src/assets/heart.apk",
   },
   {
     name: "Solar Sytsem",
@@ -280,7 +280,7 @@ const projects = [
       // },
     ],
     image: solar,
-    source_code_link: "https://github.com/",
+    source_code_link: "src/assets/SOLARSYSTEM.apk",
   },
   {
     name: "Ar Shooter",
